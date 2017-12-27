@@ -50,3 +50,50 @@ input:focus { outline: none; }
   vertical-align: middle;
   cursor: pointer;
 }
+
+header ul { line-height: 50px; }
+
+header li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu,
+.notifications,
+.profile-pic {
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -9999px;
+}
+
+.menu,
+.notifications {
+  background: url("./images/sprite.png");
+  opacity: .75;
+}
+
+.menu:hover,
+.notifications:hover {
+  opacity: 1;
+}
+
+.menu {
+  background-position: -132px -38px;
+  height: 30px;
+  width: 30px;
+}
+
+.notifications {
+  background-position: -194px -21px;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.profile-pic {
+  background: url("./images/profile-pic.jpg");
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+}
